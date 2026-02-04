@@ -259,11 +259,11 @@ footer p {
 }
 
 .logo-wrapper:hover {
-  transform: scale(1.05);
   box-shadow:
     0 0 20px rgba(0,191,255,.9),
     0 0 50px rgba(0,191,255,.6);
 }
+
 
 .logo-wrapper:focus {
   outline: none;
