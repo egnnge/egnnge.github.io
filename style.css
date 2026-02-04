@@ -416,8 +416,9 @@ footer p {
   border-radius: 18px;               /* coins arrondis */
   padding: 1.2rem;                   /* espace interne */
   color: #ffffff;                    /* texte blanc */
-  backdrop-filter: blur(6px);        /* flou derrière */
-  -webkit-backdrop-filter: blur(6px);/* compatibilité Safari */
+ /* backdrop-filter: blur(6px); */
+/* -webkit-backdrop-filter: blur(6px); */
+
   border: 1px solid rgba(255, 255, 255, 0.15);
  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 
