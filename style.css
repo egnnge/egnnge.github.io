@@ -426,7 +426,8 @@ footer p {
   backdrop-filter: blur(6px);        /* flou derrière */
   -webkit-backdrop-filter: blur(6px);/* compatibilité Safari */
   border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+ box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+
    text-shadow: 0 1px 4px rgba(0,0,0,0.8);
 
 }
