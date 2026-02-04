@@ -245,13 +245,16 @@ footer p {
    LOGO PRINCIPAL
 ====================== */
 
-/* WRAPPER = glow */
 .logo-wrapper {
-  display: inline-flex;
-  padding: 8px;                /* espace pour le glow */
+  display: flex;                /* devient un bloc */
+  width: fit-content;           /* largeur = logo */
+  margin: 0 auto;               /* centré partout */
+
+  padding: 8px;
   border-radius: 26px;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
 
 .logo-wrapper:hover {
   transform: scale(1.05);
