@@ -244,25 +244,25 @@ footer p {
 /* ======================
    LOGO PRINCIPAL
 ====================== */
-.logo-wrapper {
+.logo-wrapper{
   display: flex;
   width: fit-content;
   margin: 0 auto;
+
   padding: 8px;
-
+  background: #ffffff;      /* <-- IMPORTANT */
   border-radius: 26px;
+  overflow: hidden;         /* <-- IMPORTANT (coupe net) */
 
-  outline: none;     /* ← supprime trait noir */
-  border: none;
-
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform .25s ease, box-shadow .25s ease;
 }
 
-.logo-wrapper:hover {
-  box-shadow:
-    0 0 20px rgba(0,191,255,.9),
-    0 0 50px rgba(0,191,255,.6);
+.logo-wrapper:hover{
+  box-shadow: 0 0 20px rgba(0,191,255,.9),
+              0 0 50px rgba(0,191,255,.6);
+  transform: scale(1.03);   /* optionnel */
 }
+
 
 
 .logo-wrapper:focus {
