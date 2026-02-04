@@ -236,56 +236,28 @@ footer p {
   font-size: 0.9rem;
 }
 
-/* =========================
-   Logos & retours
-========================= */
-
-
 /* ======================
-   LOGO PRINCIPAL
+   LOGOS (simple & pro)
 ====================== */
-.logo-wrapper{
-  display: flex;
-  width: fit-content;
-  margin: 0 auto;
 
-  padding: 8px;
-  background: #ffffff;      /* <-- IMPORTANT */
-  border-radius: 26px;
-  overflow: hidden;         /* <-- IMPORTANT (coupe net) */
-
-  transition: transform .25s ease, box-shadow .25s ease;
-}
-
-.logo-wrapper:hover{
-  box-shadow: 0 0 20px rgba(0,191,255,.9),
-              0 0 50px rgba(0,191,255,.6);
-  transform: scale(1.03);   /* optionnel */
-}
-
-
-
-.logo-wrapper:focus {
-  outline: none;
-}
-
-
-/* IMAGE = découpe */
+/* ===== Logo principal ===== */
 .logo-brillant {
-  max-height: 170px !important;
-  height: auto !important;
-  width: auto !important;
+  max-height: 170px;
+  height: auto;
+  width: auto;
 
   display: block;
+  margin: 0 auto;
 
-  border-radius: 22px;
-  overflow: hidden;
+  border-radius: 18px;
   background: #ffffff;
+
+  transition: transform 0.25s ease;
 }
 
-
- 
-
+.logo-brillant:hover {
+  transform: scale(1.06);   /* effet loupe propre */
+}
 
 
 /* ======================
@@ -298,40 +270,31 @@ footer p {
 }
 
 
-
-/* ======================
-   LOGOS RETOUR
-====================== */
-
+/* ===== Logos retour ===== */
 .logo-retour-haut,
 .logo-retour {
   max-height: 130px;
-  height: auto !important;
-  width: auto !important;
+  height: auto;
+  width: auto;
 
-  display: inline-block;
-  cursor: pointer;
+  display: block;
+  margin: 0 auto;
 
   border-radius: 16px;
-  overflow: hidden;
   background: #ffffff;
 
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  transition: transform 0.25s ease;
 }
 
 .logo-retour {
-  max-height: 80px !important;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  max-height: 80px;
 }
 
 .logo-retour-haut:hover,
 .logo-retour:hover {
   transform: scale(1.08);
-  box-shadow: 0 0 10px rgba(0,191,255,.45);
 }
-
 
 
 /* ======================
@@ -342,6 +305,7 @@ footer p {
   text-align: center;
   margin-top: 3rem;
 }
+
 
 /* =========================
    Liens vers articles
