@@ -278,6 +278,15 @@ footer p {
 
 .retour-logo { text-align: center; margin-top: 3rem; }
 
+.logo-wrapper {
+  display: inline-block;
+  background: #ffffff;
+  border-radius: 22px;
+  overflow: hidden;
+  padding: 6px; /* optionnel → petit espace blanc propre autour */
+}
+
+
 /* =========================
    Liens vers articles
 ========================= */
