@@ -244,23 +244,29 @@ footer p {
 /* ======================
    LOGO PRINCIPAL
 ====================== */
-
 .logo-wrapper {
-  display: flex;                /* devient un bloc */
-  width: fit-content;           /* largeur = logo */
-  margin: 0 auto;               /* centré partout */
-
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
   padding: 8px;
+
   border-radius: 26px;
+
+  outline: none;     /* ← supprime trait noir */
+  border: none;
+
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-
 
 .logo-wrapper:hover {
   transform: scale(1.05);
   box-shadow:
     0 0 20px rgba(0,191,255,.9),
     0 0 50px rgba(0,191,255,.6);
+}
+
+.logo-wrapper:focus {
+  outline: none;
 }
 
 
