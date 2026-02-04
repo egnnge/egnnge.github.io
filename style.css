@@ -245,9 +245,10 @@ footer p {
    LOGO PRINCIPAL
 ====================== */
 
-/* Wrapper = effets visuels (glow + scale) */
+/* WRAPPER = glow */
 .logo-wrapper {
-  display: inline-block;
+  display: inline-flex;
+  padding: 8px;                /* espace pour le glow */
   border-radius: 26px;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -255,16 +256,24 @@ footer p {
 .logo-wrapper:hover {
   transform: scale(1.05);
   box-shadow:
-    0 0 12px rgba(0,191,255,.55),
-    0 0 28px rgba(0,191,255,.35);
+    0 0 20px rgba(0,191,255,.9),
+    0 0 50px rgba(0,191,255,.6);
 }
 
 
-/* Image = forme propre uniquement */
+/* IMAGE = découpe */
 .logo-brillant {
   max-height: 170px !important;
   height: auto !important;
   width: auto !important;
+
+  display: block;
+
+  border-radius: 22px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
 
   display: block;
   margin: auto;
