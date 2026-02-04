@@ -284,14 +284,7 @@ footer p {
 }
 
 
-  display: block;
-  margin: auto;
-
-  background: #ffffff;
-
-  border-radius: 22px;
-  overflow: hidden;   /* coupe les coins net */
-}
+ 
 
 
 
