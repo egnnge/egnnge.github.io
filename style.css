@@ -239,52 +239,81 @@ footer p {
 /* =========================
    Logos & retours
 ========================= */
+
+/* ===== Logo principal ===== */
 .logo-brillant {
   max-height: 170px !important;
   height: auto !important;
   width: auto !important;
+
   display: block;
   margin: auto;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  border-radius: 22px;      /* coins fixes */
+  overflow: hidden;         /* coupe net */
+  background: #ffffff;      /* masque tout artefact */
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
 .logo-brillant:hover {
-  box-shadow: 0 0 20px #00bfff, 0 0 40px #00bfff;
   transform: scale(1.05);
-   border-radius: 18px;
+  box-shadow: 0 0 14px rgba(0,191,255,.55); /* glow plus pro */
 }
 
-.retour-haut { text-align: center; margin: 3rem 0 2rem; }
 
+/* ===== Wrapper (si tu veux un petit effet carte premium) ===== */
+.logo-wrapper {
+  display: inline-block;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+
+/* ===== Bloc retour haut ===== */
+.retour-haut {
+  text-align: center;
+  margin: 3rem 0 2rem;
+}
+
+
+/* ===== Logos retour ===== */
 .logo-retour-haut,
 .logo-retour {
   max-height: 130px;
   height: auto !important;
   width: auto !important;
-  transition: transform 0.3s, box-shadow 0.3s;
+
   cursor: pointer;
   display: inline-block;
+
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
 .logo-retour {
   max-height: 80px !important;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 .logo-retour-haut:hover,
 .logo-retour:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 20px #00bfff, 0 0 40px #00bfff;
+  transform: scale(1.08);
+  box-shadow: 0 0 10px rgba(0,191,255,.45);
 }
 
-.retour-logo { text-align: center; margin-top: 3rem; }
 
-.logo-wrapper {
-  display: inline-block;
-  background: #ffffff;
-  border-radius: 22px;
-  overflow: hidden;
-  padding: 6px; /* optionnel → petit espace blanc propre autour */
+/* ===== Zone retour ===== */
+.retour-logo {
+  text-align: center;
+  margin-top: 3rem;
 }
+
 
 
 /* =========================
