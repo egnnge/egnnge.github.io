@@ -545,3 +545,10 @@ header, main, footer {
   object-fit: contain;
 }
 
+nav {
+  background: rgba(13, 27, 42, 0.95); /* bleu foncé cohérent avec ton header */
+  backdrop-filter: blur(4px);         /* léger glass propre (optionnel) */
+  padding: 0.6rem 0;
+}
+
+
