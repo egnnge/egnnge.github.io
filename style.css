@@ -240,7 +240,27 @@ footer p {
    Logos & retours
 ========================= */
 
-/* ===== Logo principal ===== */
+
+/* ======================
+   LOGO PRINCIPAL
+====================== */
+
+/* Wrapper = effets visuels (glow + scale) */
+.logo-wrapper {
+  display: inline-block;
+  border-radius: 26px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.logo-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 12px rgba(0,191,255,.55),
+    0 0 28px rgba(0,191,255,.35);
+}
+
+
+/* Image = forme propre uniquement */
 .logo-brillant {
   max-height: 170px !important;
   height: auto !important;
@@ -249,43 +269,37 @@ footer p {
   display: block;
   margin: auto;
 
-  border-radius: 22px;      /* coins fixes */
-  overflow: hidden;         /* coupe net */
-  background: #ffffff;      /* masque tout artefact */
+  background: #ffffff;
 
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.logo-brillant:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 14px rgba(0,191,255,.55); /* glow plus pro */
-}
-
-
-/* ===== Wrapper (si tu veux un petit effet carte premium) ===== */
-.logo-wrapper {
-  display: inline-block;
   border-radius: 22px;
-  overflow: hidden;
+  overflow: hidden;   /* coupe les coins net */
 }
 
 
-/* ===== Bloc retour haut ===== */
+
+/* ======================
+   RETOUR HAUT
+====================== */
+
 .retour-haut {
   text-align: center;
   margin: 3rem 0 2rem;
 }
 
 
-/* ===== Logos retour ===== */
+
+/* ======================
+   LOGOS RETOUR
+====================== */
+
 .logo-retour-haut,
 .logo-retour {
   max-height: 130px;
   height: auto !important;
   width: auto !important;
 
-  cursor: pointer;
   display: inline-block;
+  cursor: pointer;
 
   border-radius: 16px;
   overflow: hidden;
@@ -308,13 +322,15 @@ footer p {
 }
 
 
-/* ===== Zone retour ===== */
+
+/* ======================
+   BLOC RETOUR BAS
+====================== */
+
 .retour-logo {
   text-align: center;
   margin-top: 3rem;
 }
-
-
 
 /* =========================
    Liens vers articles
