@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://connectmaisonlocale.fr/sitemap.xml
