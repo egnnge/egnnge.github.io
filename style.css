@@ -576,7 +576,7 @@ nav {
 
 /* === Fond page Alarmes === */
 .bg-alarmes {
-  background: url("images/alarme.jpg") no-repeat center center fixed;
+  background: url("images/photo-page-alarme.jpg") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   position: relative;
