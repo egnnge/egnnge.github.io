@@ -573,3 +573,29 @@ nav {
   padding-left: 1.1rem;
 }
 .benefices li { margin: .35rem 0; }
+
+/* === Fond page Alarmes === */
+.bg-alarmes {
+  background: url("images/alarme.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Voile sombre pour lisibilité */
+.bg-alarmes::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65); /* 🔥 réglage clé */
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Assure que le contenu passe au-dessus */
+.bg-alarmes header,
+.bg-alarmes main,
+.bg-alarmes footer {
+  position: relative;
+  z-index: 1;
+}
