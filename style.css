@@ -551,4 +551,25 @@ nav {
   padding: 0.6rem 0;
 }
 
+/* CTA liens type bouton (pour <a class="btn">) */
+.btn {
+  display: inline-block;
+  background-color: #1a73e8;
+  color: #fff;
+  padding: 0.8rem 1.1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color .2s ease, transform .2s ease;
+}
+.btn:hover {
+  background-color: #1665c1;
+  transform: translateY(-1px);
+}
 
+/* Liste de bénéfices compacte */
+.benefices {
+  margin: .8rem 0 0;
+  padding-left: 1.1rem;
+}
+.benefices li { margin: .35rem 0; }
