@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Qui contrôle votre maison ? | Connect Maison Locale</title>
+  <meta name="description" content="Votre maison vous appartient-elle vraiment ? Découvrez une maison connectée locale, fiable et sans abonnement avec Connect Maison Locale." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://connectmaisonlocale.fr/controle-maison.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Qui contrôle votre maison ? – Connect Maison Locale" />
+  <meta property="og:description" content="Une maison connectée qui reste sous votre contrôle, sans dépendance aux serveurs externes." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://connectmaisonlocale.fr/controle-maison.html" />
+  <meta property="og:image" content="https://connectmaisonlocale.fr/images/logo.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.png" />
+  <link rel="shortcut icon" href="images/favicon.png" />
+
+  <!-- CSS global -->
+  <link rel="stylesheet" href="/style.css" />
+
+  <style>
+    .glass-text {
+      background: rgba(0, 0, 0, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(6px);
+      border-radius: 18px;
+      color: #fff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      padding: 1.2rem;
+    }
+
+    .nav-glass {
+      background: rgba(0, 0, 0, 0.80);
+      border-radius: 12px;
+      padding: .4rem .8rem;
+      margin-top: 1rem;
+    }
+
+    .wrapper {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.2rem;
+    }
+
+    .hero h2 {
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .hero-benefits {
+      margin: 1rem 0;
+      padding-left: 1rem;
+    }
+
+    .hero-benefits li {
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-image img {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+
+<body class="bg-accueil">
+
+  <header class="wrapper glass-text">
+    <a href="index.html">
+      <img class="logo-brillant" src="images/logo.png" alt="Connect Maison Locale">
+    </a>
+
+    <h1>Intégrateur en habitat connecté & sécurisé</h1>
+    <h2>Bourgogne-Franche-Comté</h2>
+    <p>Une maison connectée 100% personnalisée</p>
+  </header>
+
+  <nav class="wrapper nav-glass" aria-label="Navigation principale">
+    <ul>
+      <li><a href="index.html#accueil">Accueil</a></li>
+      <li><a href="infos.html">Prestations</a></li>
+      <li><a href="tableaux.html">Interfaces personnalisées</a></li>
+      <li><a href="automatisation.html">Automatisations</a></li>
+      <li><a href="fondamentaux.html#fondations-domotique">Les bases d'une maison connectée</a></li>
+      <li><a href="medias.html">Médias</a></li>
+      <li><a href="infos.html#contact">Contact</a></li>
+      <li><a href="alarmes.html">Alarmes & Vidéosurveillance</a></li>
+    </ul>
+  </nav>
+
+  <main class="wrapper">
+    <section class="glass-text hero">
+
+      <h2>Qui contrôle votre maison ?</h2>
+
+      <p><strong>Votre maison doit fonctionner pour vous. Pas dépendre d’un service externe.</strong></p>
+
+      <p>
+        Aujourd’hui, la grande majorité de maisons connectées reposent sur des serveurs distants de fabricants et des abonnements.
+        En cas de coupure, de panne ou d’évolution du service, votre maison ne fonctionne plus, voire devient inutilisable.
+      </p>
+
+      <p>
+        Je conçois des installations de sécurité et de maison connectée autonomes et durables.
+        Elles restent sous votre contrôle dans le temps, sans dépendance imposée.
+      </p>
+
+      <ul class="hero-benefits">
+        <li>Continue de fonctionner même en cas de coupure internet</li>
+        <li>Sans abonnement imposé</li>
+        <li>S’adapte à votre maison dans le temps</li>
+        <li>Vous gardez le contrôle, sans obsolescence imposée</li>
+      </ul>
+
+      <p><strong>Vous investissez dans votre maison, pas dans un système à remplacer dans quelques années.</strong></p>
+
+      <p>
+        Basé en Côte-d’Or, j’accompagne les particuliers à Dijon, Beaune, Nuits-Saint-Georges et alentours.
+      </p>
+
+      <div class="hero-image">
+        <img src="images/comparatif.png" 
+             alt="Comparatif domotique CML"
+             id="comparatifImg">
+      </div>
+
+    </section>
+  </main>
+
+</body>
+</html>
