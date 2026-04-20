@@ -362,7 +362,7 @@ footer p {
 
 /* === Fond page accueil (paysage) === */
 .bg-accueil {
-  background: url("images/fond page acceuil.jpg") no-repeat center center fixed;
+  background: url("images/fond_page_cml.jpg") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
 }
